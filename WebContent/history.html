@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    
+}
+h2{
+ font-style: italic;
+ font-family: "Times New Roman", Times, serif;
+ color: purple;
+ font-size: 30px;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.imgcontainer {
+    text-align: center;
+   	margin: 24px 0 12px 0;
+    border:1px solid #1ebbd7;
+    background-color: #1ebbd7;
+}
+form {border: 3px solid purple; border-radius: 25px; padding: 20px; 
+    width: 1000px;
+    height: 1000px;
+     background-color: lavender;
+     color: purple;}
+</style>
+</head>
+<body>
+
+<h2>Create Your Profile  - Historical Details</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+  	<label for="quest1">Have you ever been hospitalized ?</label> 
+    <label class="container">Yes
+  	<input type="radio" checked="checked" name="radio">	</label>
+	<label class="container">No
+  	<input type="radio" name="radio"></label><br><br>
+  	<label for="quest2">Reason for hospitalization ?</label>
+    <input type="text" id="quest2" name="quest2" placeholder="Your reason for hospitalization..">
+    <label for="quest3">Have you under gone surgery ?</label>
+   	<label class="container">Yes
+  	<input type="radio" checked="checked" name="radio">	</label>
+	<label class="container">No
+  	<input type="radio" name="radio"></label><br><br>
+  	<label for="quest4">Which Surgical Procedure ?</label>
+    <input type="text" id="quest4" name="quest4" placeholder="Your surgical procedure name..">
+    <br><br>
+    <label for="quest6">Drug Allergies</label> 
+    <label class="container">Yes
+  	<input type="radio" checked="checked" name="radio">	</label>
+	<label class="container">No
+  	<input type="radio" name="radio"></label><br><br>
+	<label for="quest7">To What?</label>
+    <input type="text" id="quest7" name="quest7" placeholder="please list any medications that you were alergic to..">
+    <label for="city">Do you now or have you ever had ?</label> <br><br>
+    <input type="checkbox" id="disc1"> Diabetes 
+    <input type="checkbox" id="disc2"> High Blood Pressure 
+    <input type="checkbox" id="disc3"> High Cholesterol 
+    <input type="checkbox" id="disc4"> Heart murmur 
+    <input type="checkbox" id="disc5"> Pneumonia 
+    <input type="checkbox" id="disc6"> High Cholesterol <br><br>
+    <input type="checkbox" id="disc7"> Pulmonary embolism 
+    <input type="checkbox" id="disc8"> Anemia 
+    <input type="checkbox" id="disc9"> Hypothyroidism 
+    <input type="checkbox" id="disc10"> Asthma 
+    <input type="checkbox" id="disc11"> Jaundice 
+    <input type="checkbox" id="disc11"> Goiter <br><br>
+    <input type="checkbox" id="disc12"> Emphysema 
+    <input type="checkbox" id="disc13"> Cancer 
+    <input type="checkbox" id="disc14"> Stroke 
+    <input type="checkbox" id="disc15"> Rheumatic fever 
+    <input type="checkbox" id="disc16"> Stomach  or peptic ulcer 
+    <input type="checkbox" id="disc17"> Leukemia <br><br>
+    <input type="checkbox" id="disc18"> Epilepsy (seizures) 
+    <input type="checkbox" id="disc19"> Psoriasis 
+    <input type="checkbox" id="disc20"> Tuberculosis 
+    <input type="checkbox" id="disc21"> Cataracts 
+    <input type="checkbox" id="disc22"> Angina 
+    <input type="checkbox" id="disc23"> Kidney disease <br><br>
+    <input type="checkbox" id="disc24"> HIV/AIDS 
+    <input type="checkbox" id="disc25"> Crohn’s disease 
+    <input type="checkbox" id="hichol"> Heart Disease 
+        
+    <label for="quest8">Were there problems with your birth? </label>
+    <input type="text" id="quest8" name="quest8" placeholder="Please specifiy ..">
+    <label for="quest9">Are you Differently Abled? </label>
+    <input type="text" id="quest9" name="quest9" placeholder="Please specifiy disability if any ..">
+    <label for="quest10">Have you ever had legal problem?</label>
+    <input type="text" id="contact3" name="contact3" placeholder="Please specifiy ..">
+    
+    
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

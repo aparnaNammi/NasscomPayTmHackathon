@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    
+}
+h2{
+ font-style: italic;
+ font-family: "Times New Roman", Times, serif;
+ color: purple;
+ font-size: 30px;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.imgcontainer {
+    text-align: center;
+   	margin: 24px 0 12px 0;
+    border:1px solid #1ebbd7;
+    background-color: #1ebbd7;
+}
+form {border: 3px solid purple; border-radius: 25px; padding: 20px; 
+    width: 1000px;
+    height: 2500px;
+     background-color: lavender;
+     color: purple;}
+</style>
+</head>
+<body>
+
+<h2>Create Your Profile - Personal Details</h2>
+
+<div class="container">
+	
+	<form action="ProfileCreationController" method="POST">
+	<label for="mobNum">Mob Number</label>
+    <input type="text" id="mobNum" name="mobNum" placeholder="Your Mobile Num..">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname" placeholder="Your First name..">
+    <label for="mname">Middle Name</label>
+    <input type="text" id="mname" name="mname" placeholder="Your middle name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname" placeholder="Your last name..">
+    <label for="age">Age</label>
+    <input type="text" id="age" name="age" placeholder="Your Age.."><br><br>
+   <label for="gender">Gender</label>
+    <input type="text" id="gender" name="gender" placeholder="Your gender.."><br><br>
+  	<label for="fathername">Father's Name</label>
+    <input type="text" id="fathername" name="fathername" placeholder="Your Father's name..">
+    <label for="aadharNum">Aadhar Num</label>
+    <input type="text" id="aadharNum" name="aadharNum" placeholder="Your Aadhar Num..">
+	<label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Your Address..">
+    <label for="city">City</label>
+    <input type="text" id="city" name="city" placeholder="Your City..">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    <label for="education">Highest Education</label>
+    <select id="education" name="education">
+      <option value="pg">Post Graduate</option>
+      <option value="grad">Graduate</option>
+      <option value="hischool">High School</option>
+      <option value="thumbsup">Never Schooled</option>
+    </select>
+    
+	<label for="job">Profession</label>
+    <input type="text" id="job" name="job" placeholder="Your Job..">
+    <label for="mstatus">Marital Status</label>
+    <select id="mstatus" name="mstatus">
+      <option value="married">Married</option>
+      <option value="single">Unmarried</option>
+      <option value="divorced">Divorced</option>
+      <option value="widow">Widowed</option>
+    </select>
+    
+    <label for="contactName1">Emergency Contact Name1</label>
+    <input type="text" id="contactName1" name="contactName1" placeholder="Your Emergency Contact Name1..">
+     <label for="contactNum1">Emergency Contact Num1</label>
+    <input type="text" id="contactNum1" name="contactNum1" placeholder="Your Emergency Contact Num1..">
+    <label for="contactName2">Emergency Contact Name2</label>
+    <input type="text" id="contactName2" name="contactName2" placeholder="Your Emergency Contact Name2..">
+    <label for="contactNum2">Emergency Contact Num2</label>
+    <input type="text" id="contactNum2" name="contactNum2" placeholder="Your Emergency Contact Num2..">
+    <label for="contactName3">Emergency Contact Name3</label>
+    <input type="text" id="contactName3" name="contactName3" placeholder="Your Emergency Contact Name3..">
+    <label for="contactNum3">Emergency Contact Num3</label>
+    <input type="text" id="contactNum3" name="contactNum3" placeholder="Your Emergency Contact Num3..">
+    
+    <label for="familyDoctorName">Family Doctor Name</label>
+    <input type="text" id="familyDoctorName" name="familyDoctorName" placeholder="Family Doctor Name..">
+    
+    <label for="familyDoctorNum">Family Doctor Num</label>
+    <input type="text" id="familyDoctorNum" name="familyDoctorNum" placeholder="Family Doctor Num..">
+    
+     <label for="crtiticalIllness">Critical Illness</label>
+    <input type="text" id="crtiticalIllness" name="crtiticalIllness" placeholder="Critical Illness..">
+    
+    <label for="historicLifeEvents">Historic Life Events</label>
+    <input type="text" id="historicLifeEvents" name="historicLifeEvents" placeholder="Historic Life Events..">
+    
+    <label for="familyMedBackground">Family Med background</label>
+    <input type="text" id="familyMedBackground" name="familyMedBackground" placeholder="Family Med background..">
+    
+    <label for="urself">About Yourself</label>
+    <textarea id="urself" name="urself" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
