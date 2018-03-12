@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 <style>
 html, body {
     height: 100%;
@@ -86,10 +87,21 @@ button:hover {
        width: 100%;
     }
 }
-</style>
-<body>
+@media screen and (max-width: 50px) {
+    .back {
+       width: 20%;
+    }
+}
 
-<form  action="/action_page.php" style="border:1px solid #ccc">
+</style>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</head>
+<body>
+<form action="SignUpController" method="POST" style="border:1px solid #ccc">
   <div class="container">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create your profile.</p>
@@ -116,8 +128,10 @@ button:hover {
     <div class="clearfix">
       <button type="button" class="cancelbtn">Cancel</button>
       <button type="submit" class="signupbtn">Sign Up</button>
+      <button type="button" class="back" onclick="goBack()">Go Back</button>
     </div>
   </div>
+  
   
 
 </form>

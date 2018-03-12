@@ -38,7 +38,7 @@ public class LSSController extends HttpServlet {
 		RequestDispatcher rd = null;
 
 		if (result.equals("success")) {
-			rd = req.getRequestDispatcher("/help.html");
+			rd = req.getRequestDispatcher("/lifesavior108.html");
 		} else {
 			rd = req.getRequestDispatcher("/signup.html");
 		}
