@@ -14,7 +14,7 @@ public class UserProfileDetails {
 	
 	private String gender;
 	
-	private String dob;
+	private String age;
 	
 	private String fatherName;
 	
@@ -22,17 +22,17 @@ public class UserProfileDetails {
 	
 	private String currentAddress;
 	
-	private String emergenyContactName1;
+	private String emergencyContactName1;
 	
-	private String emergenyContactName2;
+	private String emergencyContactName2;
 	
-	private String emergenyContactName3;
+	private String emergencyContactName3;
 	
-	private String emergenyContactNum1;
+	private String emergencyContactNum1;
 	
-	private String emergenyContactNum2;
+	private String emergencyContactNum2;
 	
-	private String emergenyContactNum3;
+	private String emergencyContactNum3;
 	
 	private String familyDoctorName;
 	
@@ -92,12 +92,13 @@ public class UserProfileDetails {
 		this.gender = gender;
 	}
 
-	public String getDob() {
-		return dob;
+
+	public String getAge() {
+		return age;
 	}
 
-	public void setDob(String dob) {
-		this.dob = dob;
+	public void setAge(String age) {
+		this.age = age;
 	}
 
 	public String getFatherName() {
@@ -124,52 +125,52 @@ public class UserProfileDetails {
 		this.currentAddress = currentAddress;
 	}
 
-	public String getEmergenyContactName1() {
-		return emergenyContactName1;
+	public String getEmergencyContactName1() {
+		return emergencyContactName1;
 	}
 
-	public void setEmergenyContactName1(String emergenyContactName1) {
-		this.emergenyContactName1 = emergenyContactName1;
+	public void setEmergencyContactName1(String emergencyContactName1) {
+		this.emergencyContactName1 = emergencyContactName1;
 	}
 
-	public String getEmergenyContactName2() {
-		return emergenyContactName2;
+	public String getEmergencyContactName2() {
+		return emergencyContactName2;
 	}
 
-	public void setEmergenyContactName2(String emergenyContactName2) {
-		this.emergenyContactName2 = emergenyContactName2;
+	public void setEmergencyContactName2(String emergencyContactName2) {
+		this.emergencyContactName2 = emergencyContactName2;
 	}
 
-	public String getEmergenyContactName3() {
-		return emergenyContactName3;
+	public String getEmergencyContactName3() {
+		return emergencyContactName3;
 	}
 
-	public void setEmergenyContactName3(String emergenyContactName3) {
-		this.emergenyContactName3 = emergenyContactName3;
+	public void setEmergencyContactName3(String emergencyContactName3) {
+		this.emergencyContactName3 = emergencyContactName3;
 	}
 
-	public String getEmergenyContactNum1() {
-		return emergenyContactNum1;
+	public String getEmergencyContactNum1() {
+		return emergencyContactNum1;
 	}
 
-	public void setEmergenyContactNum1(String emergenyContactNum1) {
-		this.emergenyContactNum1 = emergenyContactNum1;
+	public void setEmergencyContactNum1(String emergencyContactNum1) {
+		this.emergencyContactNum1 = emergencyContactNum1;
 	}
 
-	public String getEmergenyContactNum2() {
-		return emergenyContactNum2;
+	public String getEmergencyContactNum2() {
+		return emergencyContactNum2;
 	}
 
-	public void setEmergenyContactNum2(String emergenyContactNum2) {
-		this.emergenyContactNum2 = emergenyContactNum2;
+	public void setEmergencyContactNum2(String emergencyContactNum2) {
+		this.emergencyContactNum2 = emergencyContactNum2;
 	}
 
-	public String getEmergenyContactNum3() {
-		return emergenyContactNum3;
+	public String getEmergencyContactNum3() {
+		return emergencyContactNum3;
 	}
 
-	public void setEmergenyContactNum3(String emergenyContactNum3) {
-		this.emergenyContactNum3 = emergenyContactNum3;
+	public void setEmergencyContactNum3(String emergencyContactNum3) {
+		this.emergencyContactNum3 = emergencyContactNum3;
 	}
 
 	public String getFamilyDoctorName() {

@@ -5,7 +5,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 
 public class LSSUtil {
-	public static String getPath() throws UnsupportedEncodingException {
+	/*public static String getPath() throws UnsupportedEncodingException {
 		String path = LSSUtil.class.getClassLoader().getResource("").getPath();
 		String fullPath = URLDecoder.decode(path, "UTF-8");
 		String pathArr[] = fullPath.split("/WEB-INF/");
@@ -14,5 +14,5 @@ public class LSSUtil {
 		// to read a file from webcontent
 		reponsePath = new File(fullPath).getPath() + File.separatorChar + "UserProfileBank.xls";
 		return reponsePath;
-		}
+		}*/
 }

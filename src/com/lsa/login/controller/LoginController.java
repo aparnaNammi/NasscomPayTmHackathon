@@ -8,13 +8,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.excel.ReadExcel;
+import com.db.ConnectToDB;
 import com.lsa.util.Authenticator;
-import com.lsa.util.LSSUtil;
 import com.pojo.UserProfileDetails;
 
 public class LoginController extends HttpServlet {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public LoginController() {
 		super();
 	}
@@ -26,10 +30,19 @@ public class LoginController extends HttpServlet {
 		Authenticator auth = new Authenticator();
 		
 		String result = auth.authenticate(userName, pass);
-		UserProfileDetails userDetails = null;
+		/*UserProfileDetails userDetails = null;
 			ReadExcel readExcelData = new ReadExcel();
-			userDetails = readExcelData.readExcelData(userName, LSSUtil.getPath());
-			req.setAttribute("userDetails", userDetails);
+			userDetails = readExcelData.readExcelData(userName, LSSUtil.getPath());*/
+		
+		ConnectToDB connectToDB = new ConnectToDB();
+		UserProfileDetails userProfileDetails = null;
+		try {
+			userProfileDetails = connectToDB.selectData(userName);
+		} catch (IllegalArgumentException | IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			req.setAttribute("userDetails", userProfileDetails);
 			rd = req.getRequestDispatcher("/home.jsp");
 		rd.forward(req, resp);
 	}

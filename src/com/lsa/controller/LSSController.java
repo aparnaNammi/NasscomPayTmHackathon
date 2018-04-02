@@ -30,7 +30,10 @@ public class LSSController extends HttpServlet {
 
 		String result = "failure";
 		try {
-			result = email.sendEmailTo108(LSSUtil.getPath());
+			//result = email.sendEmailTo108(LSSUtil.getPath());
+			String mobileNumber = "9989932764";
+			String destFile = "image.jpg";
+			result = email.sendEmailTo108(mobileNumber, destFile);
 		} catch (URISyntaxException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

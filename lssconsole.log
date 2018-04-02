@@ -1,0 +1,36 @@
+2018-04-01 18:12:32 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:13:44 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:13:53 INFO  SendEmail:95 - Emergency team is updated with incident information in Email and SMS.
+2018-04-01 18:13:53 INFO  SendEmail:96 - Emergency family contacts are also updated about the incident.
+2018-04-01 18:16:09 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:16:45 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:22:15 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:22:24 INFO  SendEmail:95 - Emergency team is updated with incident information in Email and SMS.
+2018-04-01 18:22:24 INFO  SendEmail:96 - Emergency family contacts are also updated about the incident.
+2018-04-01 18:23:47 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:23:56 INFO  SendEmail:95 - Emergency team is updated with incident information in Email and SMS.
+2018-04-01 18:23:56 INFO  SendEmail:96 - Emergency family contacts are also updated about the incident.
+2018-04-01 18:26:31 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:29:12 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:30:21 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:30:29 INFO  SendEmail:108 - Emergency team is updated with incident information in Email and SMS.
+2018-04-01 18:30:29 INFO  SendEmail:109 - Emergency family contacts are also updated about the incident.
+2018-04-01 18:34:50 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:34:59 INFO  SendEmail:121 - Emergency team is updated with incident information in Email and SMS.
+2018-04-01 18:34:59 INFO  SendEmail:122 - Emergency family contacts are also updated about the incident.
+2018-04-01 18:36:23 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:36:58 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:37:08 INFO  SendEmail:111 - Emergency team is updated with incident information in Email and SMS.
+2018-04-01 18:37:08 INFO  SendEmail:112 - Emergency family contacts are also updated about the incident.
+2018-04-01 18:42:15 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:42:44 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:43:46 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:47:15 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:47:24 INFO  SendEmail:111 - Emergency team is updated with incident information in Email and SMS.
+2018-04-01 18:47:24 INFO  SendEmail:112 - Emergency family contacts are also updated about the incident.
+2018-04-01 18:52:07 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:52:16 INFO  SendEmail:111 - Emergency team is updated with incident information in Email and SMS.
+2018-04-01 18:52:16 INFO  SendEmail:112 - Emergency family contacts are also updated about the incident.
+2018-04-01 18:59:00 INFO  SendEmail:28 - Emergency team is being contacted.
+2018-04-01 18:59:09 INFO  SendEmail:111 - Emergency team is updated with incident information in Email and SMS.
+2018-04-01 18:59:09 INFO  SendEmail:112 - Emergency family contacts are also updated about the incident.

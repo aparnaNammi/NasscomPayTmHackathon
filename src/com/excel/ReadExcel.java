@@ -98,7 +98,7 @@ public class ReadExcel {
 								DataFormatter dataFormatter = new DataFormatter();
 								String cellStringValue = dataFormatter.formatCellValue(cell);
 
-								profDetails.setDob(cellStringValue);
+								profDetails.setAge(cellStringValue);
 							} else if (j == 7) {
 								profDetails.setFatherName(cell
 										.getStringCellValue() == null ? ""
@@ -112,27 +112,27 @@ public class ReadExcel {
 										.getStringCellValue() == null ? ""
 												: cell.getStringCellValue());
 							} else if (j == 10) {
-								profDetails.setEmergenyContactName1(cell
+								profDetails.setEmergencyContactName1(cell
 										.getStringCellValue() == null ? ""
 												: cell.getStringCellValue());
 							} else if (j == 11) {
-								profDetails.setEmergenyContactNum1(cell
+								profDetails.setEmergencyContactNum1(cell
 										.getStringCellValue() == null ? ""
 												: cell.getStringCellValue());
 							} else if (j == 12) {
-								profDetails.setEmergenyContactName2(cell
+								profDetails.setEmergencyContactName2(cell
 										.getStringCellValue() == null ? ""
 												: cell.getStringCellValue());
 							} else if (j == 13) {
-								profDetails.setEmergenyContactNum2(cell
+								profDetails.setEmergencyContactNum2(cell
 										.getStringCellValue() == null ? ""
 												: cell.getStringCellValue());
 							} else if (j == 14) {
-								profDetails.setEmergenyContactName3(cell
+								profDetails.setEmergencyContactName3(cell
 										.getStringCellValue() == null ? ""
 												: cell.getStringCellValue());
 							} else if (j == 15) {
-								profDetails.setEmergenyContactNum3(cell
+								profDetails.setEmergencyContactNum3(cell
 										.getStringCellValue() == null ? ""
 												: cell.getStringCellValue());
 							} else if (j == 16) {

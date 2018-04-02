@@ -108,7 +108,7 @@ form {border: 3px solid purple; border-radius: 25px; padding: 20px;
 <table id="customers">
 <tr><th>Name</th><th>Details</th></tr>
    <tr> <td>  <label for="fname">First Name :</label></td><td> <% out.print(userDetails.getFirstName()); %></td>   </tr>
-    <tr> <td><label for="address">Middle Name : </label> </td><td>  <% out.print(userDetails.getMiddleName()); %></td>   </tr> 
+    <tr> <td><label for="address">Middle Name : </label> </td><td>  K</td>   </tr> 
     <tr> <td><label for="lname">Last Name :</label> </td><td><% out.print(userDetails.getLastName()); %></td>   </tr> 
     <tr> <td><label for="address">Mobile : </label></td><td> <% out.print(userDetails.getMobileNum()); %></td>   </tr>
     <tr> <td><label for="age">Age : </label> </td><td><% out.print(userDetails.getDob()); %></td>   </tr>
